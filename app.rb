@@ -21,6 +21,6 @@ class App < Sinatra::Base
     @number1 = params[:num1]
     @number1 = params[:num2]
     @product = @number1*@number2
-    "#{@product}"
+    "#{number1}*#{number2} = #{@product}"
   end
 end
